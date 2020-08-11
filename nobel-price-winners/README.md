@@ -1,9 +1,15 @@
 # A Visual History of Nobel Prize Winners
+_Visualize the trend of Nobel Prize Winners from 1901 to 2016_
+
+<p align="center">
+  <img src="https://www.nobelprize.org/uploads/2018/06/alfred-nobel-will-monthly.jpg" height="300px">
+</p>
 
 ## Objective
-The Nobel Prize is perhaps the world's most well known scientific award. Except for the honor, prestige and substantial prize money the recipient also gets a gold medal showing Alfred Nobel (1833 - 1896) who established the prize. Every year it's given to scientists and scholars in the categories chemistry, literature, physics, physiology or medicine, economics, and peace. The first Nobel Prize was handed out in 1901, and at that time the Prize was very Eurocentric and male-focused, but nowadays it's not biased in any way whatsoever. Surely. Right?
+The Nobel Prize is perhaps the world's most well known scientific award. Except for the honor, prestige and substantial prize money the recipient also gets a gold medal showing Alfred Nobel (1833 - 1896) who established the prize. Every year it's given to scientists and scholars in the categories chemistry, literature, physics, physiology or medicine, economics, and peace. The first Nobel Prize was handed out in 1901, and at that time the Prize was very Eurocentric and male-focused, but nowadays it's not biased in any way whatsoever.
 
-Well, we're going to find out! The Nobel Foundation has made a dataset available of all prize winners from the start of the prize, in 1901, to 2016. Let's load it in and take a look.
+## Data
+The Nobel Foundation has made a dataset available of all prize winners from the start of the prize, in 1901, to 2016.
 
 ## Analysis
 ### Who gets the Nobel Prize?
@@ -63,4 +69,4 @@ We also learn that organizations also get the prize as both the Red Cross and th
 - We also see that economics is a newer category. 
 - But peace shows an opposite trend where winners are getting younger! In the peace category we also a winner around 2010 that seems exceptionally young. 
 
-<img src="images/category.png" height="300px">
+<img src="images/category.png">
