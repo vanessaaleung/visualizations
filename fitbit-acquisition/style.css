@@ -1,0 +1,94 @@
+* {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+ }
+
+#title {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+#header {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+}
+
+#header span {
+  margin: 0 auto;
+  color: darkred;
+  
+}
+
+#header #update {
+  width: 1000px;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a:active{
+  font-weight: bold;
+}
+
+#description {
+  line-height: 1.5;
+}
+
+#scatterPlot {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+#bottomPlots {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+}
+
+#barChart {
+  margin-right: 20px;
+}
+
+#table {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding-right: 2px;
+}
+
+td {
+  width: 200px;
+}
+
+tr {
+  border-bottom: 1px solid lightgray;
+  height: 40px;
+}
+
+tr:not(:first-child):hover {
+  background-color: lightgray;
+}
+
+#pageFourTable {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+#pageFourTable td {
+  width: 250px;
+}
+
+input {
+  outline: none;
+  width: 500px;
+}

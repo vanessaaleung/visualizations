@@ -1,0 +1,116 @@
+html {
+  font-family: ArnhemPro,Georgia,"Times New Roman",serif;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title h1 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 3px;
+	margin-top: 50px;
+}
+
+.title p {
+	font-size: 15px;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 3px;
+}
+
+.title span {
+	color: darkred;
+}
+
+.description {
+	color: grey;
+	font-size: 15px;
+	text-align: center;
+}
+
+.caseCircle {
+	stroke: #F88;
+	fill: #F00;
+    fill-opacity: 0.1;
+    stroke-width: 0.5;
+}
+
+.caseCircle:hover {
+	stroke: #F00;
+	stroke-width: 0.7px;
+}
+
+.deathCircle {
+	stroke: #5f6769;
+	fill: #bbbbbb;
+    fill-opacity: 0.5;
+    stroke-width: 0.5;
+}
+
+.deathCircle:hover {
+	stroke: black;
+	stroke-width: 1px;
+}
+
+.btn-group button {
+  background-color: #efefef;
+  border: 1px solid #e2e2e2;
+  color: black;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: ArnhemPro,Georgia,"Times New Roman",serif;
+  border-radius: 0px;
+  width: 150px;
+  height: 50px;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group button:focus {
+  outline: none;
+  background-color: white;
+  font-weight: bold;
+}
+
+.btn-group {
+	position: relative;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%, -10%);
+	text-align: center;
+	margin-top: 20px;
+}
+
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+*:focus {
+	outline: none;
+}
+
+.country-text {
+	text-anchor: middle;
+    fill: #5D5A6D;
+    font-size:  7px;
+    text-shadow: -5px -5px 10px #fff, 5px 5px 10px #fff, -5px 5px 10px #fff, 5px -5px 10px #fff;
+}
+
+.num-text {
+	text-anchor: middle;
+    fill: #5D5A6D;
+    font-size:  6px;
+    text-shadow: -5px -5px 10px #fff, 5px 5px 10px #fff, -5px 5px 10px #fff, 5px -5px 10px #fff;
+  
+}
